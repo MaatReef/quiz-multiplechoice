@@ -200,6 +200,8 @@ footer h2 a {
 
 
 .initGame {
+  background-image: url(../img/fondoEstrellas.png);
+  background-size: contain;
   padding: 4rem 0rem 8rem;
   margin-bottom: 4rem;
     position: fixed;
@@ -210,8 +212,8 @@ footer h2 a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    background: rgb(86,20,139);
-    background: linear-gradient(90deg, rgba(86,20,139,1) 0%, rgba(111,20,139,1) 50%, rgba(86,20,139,1) 100%);
+    /* background: rgb(86,20,139);
+    background: linear-gradient(90deg, rgba(86,20,139,1) 0%, rgba(111,20,139,1) 50%, rgba(86,20,139,1) 100%); */
     z-index: 2; /* Asegúrate de que el div se superponga por encima de todo lo demás */
 }
 .btnInit{
@@ -315,6 +317,7 @@ background: radial-gradient(circle, rgba(238,224,6,1) 0%, rgba(112,109,17,1) 100
   }
 
   .initGame{
+    
     display: flex;
     flex-direction: column;
     margin-bottom: 0rem;
