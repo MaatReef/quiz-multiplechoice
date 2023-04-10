@@ -1,0 +1,102 @@
+[
+  {
+    "pregunta": "¿Qué es un lenguaje de programación?",
+    "respuestas": [
+      "Un conjunto de instrucciones que permiten crear software",
+      "Una persona que escribe código",
+      "Un dispositivo que ejecuta código",
+      "Un archivo que contiene código fuente"
+    ],
+    "respuesta_correcta": "Un conjunto de instrucciones que permiten crear software"
+  },
+  {
+    "pregunta": "¿Qué es un algoritmo?",
+    "respuestas": [
+      "Un conjunto de instrucciones que resuelve un problema",
+      "Un lenguaje de programación",
+      "Un tipo de software",
+      "Un dispositivo de hardware"
+    ],
+    "respuesta_correcta": "Un conjunto de instrucciones que resuelve un problema"
+  },
+  {
+    "pregunta": "¿Qué es una variable en programación?",
+    "respuestas": [
+      "Un contenedor de datos",
+      "Una función",
+      "Un tipo de dato",
+      "Un operador"
+    ],
+    "respuesta_correcta": "Un contenedor de datos"
+  },
+  {
+    "pregunta": "¿Qué es una función en programación?",
+    "respuestas": [
+      "Un bloque de código que realiza una tarea específica",
+      "Un contenedor de datos",
+      "Un tipo de operador",
+      "Un tipo de bucle"
+    ],
+    "respuesta_correcta": "Un bloque de código que realiza una tarea específica"
+  },
+  {
+    "pregunta": "¿Qué es un ciclo o bucle en programación?",
+    "respuestas": [
+      "Una estructura que permite repetir un bloque de código varias veces",
+      "Un tipo de operador",
+      "Un tipo de función",
+      "Un tipo de dato"
+    ],
+    "respuesta_correcta": "Una estructura que permite repetir un bloque de código varias veces"
+  },
+  {
+    "pregunta": "¿Qué es un condicional en programación?",
+    "respuestas": [
+      "Una estructura que permite ejecutar un bloque de código si se cumple una condición",
+      "Un tipo de operador",
+      "Un tipo de función",
+      "Un tipo de dato"
+    ],
+    "respuesta_correcta": "Una estructura que permite ejecutar un bloque de código si se cumple una condición"
+  },
+  {
+    "pregunta": "¿Qué es el debugging en programación?",
+    "respuestas": [
+      "El proceso de encontrar y corregir errores en el código",
+      "El proceso de optimizar el código",
+      "El proceso de documentar el código",
+      "El proceso de compilar el código"
+    ],
+    "respuesta_correcta": "El proceso de encontrar y corregir errores en el código"
+  },
+  {
+    "pregunta": "¿Qué es el versionado de código?",
+    "respuestas": [
+      "El proceso de controlar y gestionar los cambios en el código fuente",
+      "El proceso de crear múltiples versiones de un software",
+      "El proceso de documentar el código",
+      "El proceso de optimizar el código"
+    ],
+    "respuesta_correcta": "El proceso de controlar y gestionar los cambios en el código fuente"
+  },
+  {
+    "pregunta": "¿Qué es una estructura de datos en programación?",
+    "respuestas": [
+      "Un conjunto de instrucciones que realiza una tarea específica",
+      "Un valor fijo que no puede ser cambiado",
+      "Un objeto",
+      "Una forma de organizar y almacenar datos"
+    ],
+    "respuesta_correcta": "Una forma de organizar y almacenar datos"
+  },
+  {
+    "pregunta": "¿Qué es un operador lógico en programación?",
+    "respuestas": [
+      "Un conjunto de instrucciones que realiza una tarea específica",
+      "Un valor fijo que no puede ser cambiado",
+      "Un operador que compara dos valores",
+      "Un operador que combina dos o más condiciones"
+    ],
+    "respuesta_correcta": "Un operador que combina dos o más condiciones"
+  }
+]

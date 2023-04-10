@@ -1,0 +1,104 @@
+[
+  {
+    "pregunta": "¿Cuál es la capital de Francia?",
+    "respuestas": [
+      "Londres",
+      "París",
+      "Madrid",
+      "Berlín"
+    ],
+    "respuesta_correcta": "París"
+
+  },
+  {
+    "pregunta": "¿Quién escribió el Quijote?",
+    "respuestas": [
+      "García Lorca",
+      "Cervantes",
+      "García Márquez",
+      "Neruda"
+    ],
+    "respuesta_correcta": "Cervantes"
+  },
+  {
+    "pregunta": "¿En qué año comenzó la Segunda Guerra Mundial?",
+    "respuestas": [
+      "1939",
+      "1940",
+      "1941",
+      "1942"
+    ],
+    "respuesta_correcta": "1939"
+  },
+  {
+    "pregunta": "¿Cuál es el río más largo del mundo?",
+    "respuestas": [
+      "Amazonas",
+      "Nilo",
+      "Yangtze",
+      "Misisipi"
+    ],
+    "respuesta_correcta": "Nilo"
+  },
+  {
+    "pregunta": "¿Cuál es el metal más caro del mundo?",
+    "respuestas": [
+      "Plata",
+      "Oro",
+      "Platino",
+      "Rodio"
+    ],
+    "respuesta_correcta": "Rodio"
+  },
+  {
+    "pregunta": "¿Quién pintó la Mona Lisa?",
+    "respuestas": [
+      "Leonardo da Vinci",
+      "Miguel Ángel",
+      "Pablo Picasso",
+      "Vincent van Gogh"
+    ],
+    "respuesta_correcta": "Leonardo da Vinci"
+  },
+  {
+    "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+    "respuestas": [
+      "Júpiter",
+      "Saturno",
+      "Neptuno",
+      "Urano"
+    ],
+    "respuesta_correcta": "Júpiter"
+  },
+  {
+    "pregunta": "¿En qué continente se encuentra el río Volga?",
+    "respuestas": [
+      "Asia",
+      "Europa",
+      "África",
+      "América"
+    ],
+    "respuesta_correcta": "Europa"
+  },
+  {
+    "pregunta": "¿Quién escribió la obra Hamlet?",
+    "respuestas": [
+      "William Shakespeare",
+      "Miguel de Cervantes",
+      "Jorge Luis Borges",
+      "Gabriel García Márquez"
+    ],
+    "respuesta_correcta": "William Shakespeare"
+  },
+  {
+    "pregunta": "¿Quién es el autor de la famosa pintura \"La noche estrellada\"?",
+    "respuestas": [
+      "Pablo Picasso",
+      "Vincent van Gogh",
+      "Salvador Dalí",
+      "Frida Kahlo"
+    ],
+    "respuesta_correcta": "Vincent van Gogh"
+  }
+]
+

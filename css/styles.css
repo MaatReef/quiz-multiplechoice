@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap');
+
+body{
+  background: rgb(86,20,139);
+background: radial-gradient(circle, rgba(86,20,139,1) 0%, rgba(111,20,139,1) 100%);
+font-family: 'Alkatra', cursive;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+header {
+  width: 80%;
+
+  border-radius: 0rem 0rem 1.2rem 1.2rem;
+  background-color:  rgb(40, 3, 51);
+  color: #ffffff;
+  padding: 10px 100px;
+  font-size: 0.8rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 20;
+  top: 0;
+}
+header a {
+  cursor: pointer;
+}
+header img {
+  width: 130px;
+  height: 50px;
+}
+header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  color: #fcfcfc;
+}
+
+footer {
+  background-color:  rgb(40, 3, 51);
+  color: #ffffff;
+  padding: 10px 100px;
+  position: fixed;
+  border-radius: 1.2rem 1.2rem 0rem 0rem;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 20;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+footer h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  color: #fcfcfc;
+}
+footer h2 a {
+  margin: 2px;
+  color: white;
+}
+
+.mark{
+  
+  background-color:  rgb(85, 6, 109);
+  font-size: 1.3rem;
+    border-radius: 0.2rem;
+    max-width: 60rem;
+    padding: 1rem;
+    color: white;
+    margin: 1rem auto;
+    justify-content: center;
+    margin-bottom: 1rem;
+    box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+    -moz-box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+}
+
+.quiz-container{
+    background-color: rgb(253, 253, 253);
+    border-radius: 0.2rem;
+    margin: 0rem auto 8rem;
+    width: 40rem;
+    padding: 1rem;
+    box-shadow: 10px 8px 6px 2px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 10px 8px 6px 2px rgba(0,0,0,0.53);
+    -moz-box-shadow: 10px 8px 6px 2px rgba(0,0,0,0.53);
+}
+.tiempo-restante{
+    background-color: rgb(232, 232, 203);
+    border-radius: 0.2rem;
+    margin: 1rem 1rem 2rem;
+    max-width: 60rem;
+    padding: 1rem;
+    height: 2rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 1.1rem;
+    box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+    -moz-box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+}
+.title-questions{
+    background-color: rgb(207, 189, 212);
+    color: black    ;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-size: 1.rem;
+    box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+    -moz-box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+}
+.img-questions{
+    background-color: transparent;
+    align-items: center;
+
+    display: flex;
+    justify-content: center;
+}
+.title-fin{
+    background-color: rgb(96, 13, 121);
+    color: white;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+    -moz-box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+}
+.separador{
+  background-color:  rgb(85, 6, 109);
+    color: white;
+    width: 20rem;
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+    font-size: 1.1rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+    -moz-box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+}
+.opcion{
+  background-color:  rgb(172, 104, 193);
+  color: white;
+    font-size: 1.2rem;
+    width: 14rem;
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+    border: none;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem auto;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+    -moz-box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+    
+    animation: levitation 2s ease-in-out infinite;
+}
+
+
+@keyframes levitation {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-2px) rotate(-1deg);
+  }
+  50% {
+    transform: translateY(0) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-2px) rotate(1deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+
+.initGame {
+  padding: 4rem 0rem 8rem;
+  margin-bottom: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background: rgb(86,20,139);
+    background: linear-gradient(90deg, rgba(86,20,139,1) 0%, rgba(111,20,139,1) 50%, rgba(86,20,139,1) 100%);
+    z-index: 2; /* Asegúrate de que el div se superponga por encima de todo lo demás */
+}
+.btnInit{
+    width: 20rem;
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+    border: none;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    justify-content: center;
+    margin: 2rem auto;
+    font-size: 2em;
+    color: white;
+    padding: 1em;
+    cursor: pointer;
+    box-shadow: 10px 8px 6px 2px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 10px 8px 6px 2px rgba(0,0,0,0.53);
+    -moz-box-shadow: 10px 8px 6px 2px rgba(0,0,0,0.53);
+}
+
+.red {
+  background: rgb(238,6,81);
+background: radial-gradient(circle, rgba(238,6,81,1) 0%, rgba(139,20,38,1) 100%);
+color: black;
+
+margin-bottom: 10rem;
+  }
+  
+  .blue {
+    background: rgb(13,6,238);
+background: radial-gradient(circle, rgba(13,6,238,1) 0%, rgba(38,20,139,1) 100%);
+color: black;
+    
+margin-bottom: 10rem;
+  }
+  
+  .yellow {
+    background: rgb(238,224,6);
+background: radial-gradient(circle, rgba(238,224,6,1) 0%, rgba(112,109,17,1) 100%);
+    color: black;
+    margin-bottom: 10rem;
+  }
+  
+  .green {
+    background: rgb(6,238,75);
+  background: radial-gradient(circle, rgba(6,238,75,1) 0%, rgba(20,139,68,1) 100%);
+  color: black;
+
+  margin-bottom: 10rem;
+  }
+  
+  #btnInit1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  #btnInit2 {
+    grid-column: 2;
+    grid-row: 1;
+    
+  }
+  
+  #btnInit3 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  #btnInit4 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+/* swwtaler */
+.swal-overlay {
+    background-color: rgba(25, 2, 32, 0.781);
+}
+
+.swal-button {
+    padding: 0.7rem 2rem;
+    border-radius: 0.4rem;
+    background-color: rgb(85, 6, 109);
+    font-size: 12px;
+    border: none;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+    -moz-box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.53);
+    
+}
+.swal-button:hover{
+  background: rgb(126, 11, 161) !important;
+
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+  header h2 {
+    margin-top: 15px;
+  }
+
+  .initGame{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+    position: inherit;
+    background: transparent;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  .red, .yellow, .green, .blue {
+    margin-bottom: 0rem;
+    width: 16rem;
+    font-size: 1.4rem;
+  }
+  .red{
+    margin-top: 0rem;
+  }
+  .green{
+    margin-bottom: 0rem;
+  }
+  .img-questions{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1rem;
+  }
+  .img-questions video{
+    width: 16rem;
+    margin: 0rem;
+  }
+  .title-questions{
+    font-size: 1.2rem;
+  }
+  .quiz-container {
+    width: 16rem;
+    margin-bottom: 2rem;
+  }
+  .opcion{
+    width: 10rem;
+    font-size: 1rem;
+  }
+  .separador{
+    width: 15rem;
+    font-size: 0.7rem;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 10px 10px;
+    position: static;
+  }
+}

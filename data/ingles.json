@@ -1,0 +1,103 @@
+[
+    {
+      "pregunta": "What's the opposite of 'hot'?",
+      "respuestas": [
+        "Cold",
+        "Warm",
+        "Freezing",
+        "Cool"
+      ],
+      "respuesta_correcta": "Cold"
+    },
+    {
+      "pregunta": "What's the past tense of 'go'?",
+      "respuestas": [
+        "Going",
+        "Went",
+        "Gone",
+        "Goed"
+      ],
+      "respuesta_correcta": "Went"
+    },
+    {
+      "pregunta": "Which word is an adjective: happy, happily, happiness, unhappy?",
+      "respuestas": [
+        "Happy",
+        "Happily",
+        "Happiness",
+        "Unhappy"
+      ],
+      "respuesta_correcta": "Happy"
+    },
+    {
+      "pregunta": "What's the plural form of 'child'?",
+      "respuestas": [
+        "Childs",
+        "Childes",
+        "Children",
+        "Childen"
+      ],
+      "respuesta_correcta": "Children"
+    },
+    {
+      "pregunta": "What's the past participle of 'sing'?",
+      "respuestas": [
+        "Sung",
+        "Sang",
+        "Sing",
+        "Singed"
+      ],
+      "respuesta_correcta": "Sung"
+    },
+    {
+      "pregunta": "What's the opposite of 'fast'?",
+      "respuestas": [
+        "Slow",
+        "Quick",
+        "Swift",
+        "Rapid"
+      ],
+      "respuesta_correcta": "Slow"
+    },
+    {
+      "pregunta": "Which word is a verb: house, housing, housed, houseful?",
+      "respuestas": [
+        "House",
+        "Housing",
+        "Housed",
+        "Houseful"
+      ],
+      "respuesta_correcta": "Housed"
+    },
+    {
+      "pregunta": "What's the present participle of 'swim'?",
+      "respuestas": [
+        "Swim",
+        "Swam",
+        "Swum",
+        "Swimming"
+      ],
+      "respuesta_correcta": "Swimming"
+    },
+    {
+      "pregunta": "Which word is a noun: jump, jumping, jumped, jumper?",
+      "respuestas": [
+        "Jump",
+        "Jumping",
+        "Jumped",
+        "Jumper"
+      ],
+      "respuesta_correcta": "Jumper"
+    },
+    {
+      "pregunta": "What's the opposite of 'big'?",
+      "respuestas": [
+        "Small",
+        "Large",
+        "Giant",
+        "Huge"
+      ],
+      "respuesta_correcta": "Small"
+    }
+  ]
+  
