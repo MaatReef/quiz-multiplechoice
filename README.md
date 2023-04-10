@@ -1,4 +1,5 @@
-# Quizz MultipleChoice
+# Quizz MultipleChoice -IQ Intelect 🧠
+[Ver Proyecto IQ Intelect](https://maatreef.github.io/quiz-multiplechoice/ "Ver Proyecto")
 
 
 ## Tecnologías Utilizadas:
