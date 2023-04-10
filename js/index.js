@@ -80,7 +80,7 @@ function init(patron) {
             let randomNumber = obtenerNumeroAleatorio();
             let preguntaHTML = `
                 <div class="img-questions">
-                    <video src='../img/${patron}/${randomNumber}.mp4' width='200' height='150' frameBorder='0' autoplay loop></video>
+                    <video src='img/${patron}/${randomNumber}.mp4' width='200' height='150' frameBorder='0' autoplay loop></video>
                     ${tiempoRestanteHTML}
                 </div>
                 
@@ -143,7 +143,7 @@ function init(patron) {
                             <div class="title-fin">Podrías volver a intentarlo y mejorar</div>
                             <br>
                             <div class="img-questions">
-                                <video src='../img/${patron}/${randomNumber}.mp4' width='480' height='270' frameBorder='0' autoplay loop></video>
+                                <video src='img/${patron}/${randomNumber}.mp4' width='480' height='270' frameBorder='0' autoplay loop></video>
                             </div>
                             <br> <button id="recargar" class="opcion">Volver a Intentar</button>`;  
                             mark.innerHTML = `Puntaje Total: ${countPoint} de ${preguntas.length}`;  
@@ -156,7 +156,7 @@ function init(patron) {
                             <div class="title-fin">¡Buen Intento!</div> 
                             <br>
                             <div class="img-questions">
-                                <video src='../img/${patron}/${randomNumber}.mp4' width='480' height='270' frameBorder='0' autoplay loop></video>
+                                <video src='img/${patron}/${randomNumber}.mp4' width='480' height='270' frameBorder='0' autoplay loop></video>
                             </div>
                             <br> <button id="recargar" class="opcion">Volver a Intentar</button>`;  
                             mark.innerHTML = `Puntaje Total: ${countPoint} de ${preguntas.length}`;
@@ -169,7 +169,7 @@ function init(patron) {
                             <div class="title-fin">¡Excelente Puntaje!</div> 
                             <br>
                             <div class="img-questions">
-                                <video src='../img/${patron}/${randomNumber}.mp4' width='480' height='270' frameBorder='0' autoplay loop></video>
+                                <video src='img/${patron}/${randomNumber}.mp4' width='480' height='270' frameBorder='0' autoplay loop></video>
                             </div>
                             <br> <button id="recargar" class="opcion">Volver a Intentar</button>`;  
                             mark.innerHTML = `Puntaje Total: ${countPoint} de ${preguntas.length}`;  
